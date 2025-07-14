@@ -18,7 +18,7 @@ class JobController extends Controller
             "Systems Analyst"
         ];
 
-        return view("jobs.index", compact("title", "jobs"));
+        return view("jobs.index", compact("jobs"));
     }
 
     /**
@@ -26,7 +26,7 @@ class JobController extends Controller
      */
     public function create()
     {
-        //
+        return view("jobs.create");
     }
 
     /**
