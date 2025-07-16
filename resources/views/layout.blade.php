@@ -18,5 +18,7 @@
 <body class="bg-gray-100">
     <x-header />
     <main>{{ $slot }}</main>
+
+    <script src="{{ asset('js/script.js')}}"></script>
 </body>
 </html>
