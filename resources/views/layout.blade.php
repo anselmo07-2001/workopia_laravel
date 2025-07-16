@@ -12,11 +12,15 @@
         crossorigin="anonymous"
         referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <title>{{ $title ?? "Workopia | Find the list jobs" }}</title>
 
 </head>
 <body class="bg-gray-100">
     <x-header />
+    @if (request()->is("/"))
+        <x-hero/>    
+    @endif
     <main>{{ $slot }}</main>
 
     <script src="{{ asset('js/script.js')}}"></script>
