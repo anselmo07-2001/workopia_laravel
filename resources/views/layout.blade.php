@@ -19,7 +19,8 @@
 <body class="bg-gray-100">
     <x-header />
     @if (request()->is("/"))
-        <x-hero/>    
+        <x-hero/>
+        <x-top-banner />
     @endif
     <main>{{ $slot }}</main>
 
