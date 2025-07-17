@@ -9,5 +9,7 @@ class Job extends Model
     //
     protected $table = "job_listings";
 
-    protected $fillable = ["title", "description"];
+    protected $fillable = ["title", "description", "salary", "tags", "job_type", "remote", "requirements", "benefits", "address", 
+                "city", "state", "zip", "code", "contact", "email" , "contact_phone", "company_name",
+                "company_description", "company_logo", "company_website"];
 }
