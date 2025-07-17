@@ -3,14 +3,14 @@
 @if ($mobile)
      <a href="{{ $url }}" class="block px-4 py-2 hover:bg-blue-700 {{ $active ? " text-yellow-500" : "" }}">
         @if ($icon)
-            <i class="fa fa-{{$icon}}"></i> Create Job
+            <i class="fa fa-{{$icon}}"></i> 
         @endif
         {{ $slot }}
     </a>    
 @else
     <a href="{{ $url }}" class="text-white hover:underline py-2 {{ $active ? " text-yellow-500" : "" }}">
         @if ($icon)
-            <i class="fa fa-{{$icon}}"></i> Create Job
+            <i class="fa fa-{{$icon}}"></i> 
         @endif
         {{ $slot }}
     </a>
