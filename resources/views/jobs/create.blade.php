@@ -49,9 +49,9 @@
                 <x-inputs.text-area id="company_description" name="company_description" label="Company Description" 
                     placeholder="Company Description" />
 
-                <x-inputs.text id="company_website" name="company_website" label="Company Website" placeholder="Enter website"/>
+                <x-inputs.text id="company_website" name="company_website" label="Company Website" placeholder="Enter website" type="url"/>
                 <x-inputs.text id="contact_phone" name="contact_phone" label="Contact Phone" placeholder="Enter phone"/>
-                <x-inputs.text id="contact_phone" name="contact_phone" label="Contact Email" placeholder="Email where you want to receive applications"/>
+                <x-inputs.text type="email" id="contact_email" name="contact_email" label="Contact Email" placeholder="Email where you want to receive applications"/>
 
                 <x-inputs.file id="company_logo" name="company_logo"/>
 
