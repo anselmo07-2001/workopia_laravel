@@ -102,7 +102,7 @@
                 alt="Ad"
                 class="w-full rounded-lg mb-4 m-auto"
             />
-            <h4 class="text-lg font-bold">Algorix</h4>
+            <h4 class="text-lg font-bold">{{ $job->company_name }}</h4>
             <p class="text-gray-700 text-lg my-3">
                 {{ $job->description }}
             </p>
