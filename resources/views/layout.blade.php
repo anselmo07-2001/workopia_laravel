@@ -13,6 +13,7 @@
         referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <script src="//unpkg.com/alpinejs" defer></script>
     <title>{{ $title ?? "Workopia | Find the list jobs" }}</title>
 
 </head>
