@@ -12,7 +12,7 @@
                 </a>
                 <div class="flex space-x-3 ml-4">
                     <a
-                        href="/edit"
+                        href="{{ route("jobs.edit", $job->id) }}"
                         class="px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded"
                         >Edit</a
                     >
@@ -103,7 +103,7 @@
             </h3>
             @if ($job->company_logo)
                 <img
-                    src="/images/{{ $job->company_logo }}"
+                    src="/storage/{{ $job->company_logo }}"
                     alt="Ad"
                     class="w-full rounded-lg mb-4 m-auto"
                 />
