@@ -11,3 +11,5 @@
 .hero {
     background-image: url("../images/hero.jpg");
 }
+
+[x-clock] { display: none !important;}
