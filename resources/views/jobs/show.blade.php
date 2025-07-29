@@ -103,7 +103,7 @@
                             <h3 class="text-lg font-semibold mb-4">
                                 Apply For {{ $job->title }}
                             </h3>
-                            <form enctype="multipart/form-data">
+                            <form method="POST" action="{{ route('applicant.store', $job->id) }}" enctype="multipart/form-data">
                                 @csrf
                                 <x-inputs.text name="full_name" id="full_name" label="Full Name" :required="true"/>
                                 <x-inputs.text name="contact_phone" id="contact_phone" label="Contact Phone"/>
