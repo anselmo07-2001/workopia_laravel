@@ -13,7 +13,7 @@ use App\Http\Controllers\ApplicantController;
 use App\Models\Applicant;
 
 Route::get("/", [HomeController::class, "index"])->name("home");
-// Route::resource("jobs", JobController::class);
+Route::get("/jobs/{search}", [JobController::class, "search"])->name("jobs.search");
 
 //create this route and add a middleware
 Route::resource("jobs", JobController::class)->middleware("auth")->only([
