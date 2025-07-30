@@ -3,16 +3,18 @@
         type="text"
         name="keywords"
         placeholder="Keywords"
+        value="{{ request('keywords') }}"
         class="w-full md:w-72 px-4 py-3 bg-white text-black placeholder-gray-500 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
     />
     <input
         type="text"
         name="location"
         placeholder="Location"
+        value="{{ request('location') }}"
         class="w-full md:w-72 px-4 py-3 bg-white text-black placeholder-gray-500 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
     />
     <button
-        class="w-full md:w-auto bg-blue-700 hover:bg-blue-600 text-white px-4 py-3 focus:outline-none"
+        class="w-full md:w-auto bg-blue-700 hover:bg-blue-600 text-white px-4 py-3 focus:outline-none cursor-pointer"
     >
         <i class="fa fa-search mr-1"></i> Search
     </button>
