@@ -18,7 +18,7 @@
                 @method("PUT")
 
                 <x-inputs.text class="text" id="name" name="name" label="Name" value="{{ $user->name }}" />
-                <x-inputs.text class="email" id="email" name="email" label="Email Address`" value="{{ $user->email }}" />
+                <x-inputs.text class="email" id="email" name="email" label="Email Address" value="{{ $user->email }}" />
 
                 <x-inputs.file id="avatar" name="avatar" label="Upload Avatar"/>
 
