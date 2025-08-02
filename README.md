@@ -1,5 +1,5 @@
 # Workopia
-Workopia Laravel is a simple job platform I built using Laravel, Alpine.js, and Tailwind CSS. You may view my project at https://taskora.riveraanselmo.com/index.php,](https://workopialaravel.riveraanselmo.com
+Workopia Laravel is a simple job platform I built using Laravel, Alpine.js, and Tailwind CSS. You may view my project at https://workopialaravel.riveraanselmo.com/
 
 ### Features:
 - Users can sign up, apply to jobs, and bookmark them
